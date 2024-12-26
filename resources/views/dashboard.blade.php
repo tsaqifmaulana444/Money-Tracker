@@ -38,17 +38,21 @@
         </nav>
         <div>
             <div class="flex w-[78vw] mt-4 mx-7 justify-between">
-                <div class="w-[23%] h-[18vh] bg-red-500 rounded-lg">
-                    <p class="pt-3 pl-3">Income</p>
+                <div class="w-[23%] h-[18vh] bg-red-600 rounded-lg">
+                    <p class="text-[12px] pt-3 pl-3 text-white font-semibold">This Month Income</p>
+                    <p class="text-[25px] pt-3 pl-3 text-white font-semibold">Rp 20000</p>
                 </div>
-                <div class="w-[23%] h-[18vh] bg-red-500 rounded-lg">
-                    <p class="pt-3 pl-3">Expenses</p>
+                <div class="w-[23%] h-[18vh] bg-yellow-600 rounded-lg">
+                    <p class="text-[12px] pt-3 pl-3 text-white font-semibold">This Month Expenses</p>
+                    <p class="text-[25px] pt-3 pl-3 text-white font-semibold">Rp 20000</p>
                 </div>
-                <div class="w-[23%] h-[18vh] bg-red-500 rounded-lg">
-                    <p class="pt-3 pl-3">Report</p>
+                <div class="w-[23%] h-[18vh] bg-blue-600 rounded-lg">
+                    <p class="text-[12px] pt-3 pl-3 text-white font-semibold">Report</p>
+                    <p class="text-[25px] pt-3 pl-3 text-white font-semibold">Download</p>
                 </div>
-                <div class="w-[23%] h-[18vh] bg-red-500 rounded-lg">
-                    <p class="pt-3 pl-3">Target</p>
+                <div class="w-[23%] h-[18vh] bg-green-600 rounded-lg">
+                    <p class="text-[12px] pt-3 pl-3 text-white font-semibold">Target</p>
+                    <p class="text-[25px] pt-3 pl-3 text-white font-semibold">Rp 5000000</p>
                 </div>
             </div>
         </div>
@@ -59,16 +63,16 @@
                     <thead class="text-xs text-gray-700 uppercase bg-gray-50">
                         <tr>
                             <th scope="col" class="px-6 py-3">
-                                Product name
+                                Detail
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                Color
+                                Date
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                Category
+                                Income
                             </th>
                             <th scope="col" class="px-6 py-3">
-                                Price
+                                Expenses
                             </th>
                         </tr>
                     </thead>
@@ -104,7 +108,13 @@
                     </tbody>
                 </table>
             </div>
+            <div class="flex justify-end w-full">
+                <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-10 py-2.5 mr-7 mt-5">Details</button>
+            </div>
         </div>
+        <footer>
+            <p class="ml-7 mt-10">Created by @Ali Farid, 2024</p>
+        </footer>
     </main>
 </body>
 
