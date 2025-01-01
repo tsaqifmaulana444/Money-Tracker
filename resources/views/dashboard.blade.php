@@ -8,12 +8,10 @@
     @vite('resources/css/app.css')
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
     <title>Document</title>
 </head>
 
-<body class="flex">
+<body class="flex font-montserrat">
     <aside class="h-[100vh] bg-gray-600 w-[18%]">
         <div class="flex flex-col">
             <div class="w-full px-8 mx-auto mt-8">
